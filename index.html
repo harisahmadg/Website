@@ -1,12 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- Responsive for all screen sizes -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-    <title>Haris Ahmad</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Haris Ahmad</title>
+  
+  <!-- Style Sheets -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
 </head>
-<body>
+<body id="page-top">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <div class="container-fluid" id="navbar-container">
+      <a class="navbar-brand" href="#page-top">
+        <span class="d-block d-lg-none">Haris Ahmad</span>
+        <span class="d-none d-lg-block">
+          <img src="images/0.png" alt="profilepic" class="img-fluid img-profile rounded-circle mx-auto mb-2">
+        </span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse pages-wrapper" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#awards">Awards</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- Body -->
+  <div class="container-fluid p-0 body">
+    <!-- About -->
+    <section class="content-area p-3 p-lg-3 d-flex flex-column" id="about">
+      <div class="my-auto">
+        <h1 class="mb-0">Haris <span>Ahmad</span></h1>
+      </div>
+      <h3>Computer Science Student</h3>
+      <div class="subheading mb-5">
+        Toronto, ON - 
+        <a href="mailto:haris.ahmad.cs@gmail.com">haris.ahmad.cs@gmail.com</a>
+      </div>
+      <p class="mb-5">I am blah blah blah</p>
+      <a href="/Files/message.txt" target="_blank">File 1 is here</a>
+      <br>
+      <a href="/Files/RTSPConnection.java.txt">File 2 is here</a>
+      <br>
+      <br>
+
+    </section>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
 </body>
 </html>
