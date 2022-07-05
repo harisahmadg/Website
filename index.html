@@ -6,8 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Haris Ahmad</title>
   
-  <!-- Font awesome -->
+  <!-- Font awesome Social Logos-->
   <script src="https://kit.fontawesome.com/d656280244.js" crossorigin="anonymous"></script>
+  
   <!-- Style Sheets -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <link rel="stylesheet" href="css/main.css">
@@ -17,7 +18,7 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
     <div class="container-fluid" id="navbar-container">
       <a class="navbar-brand" href="#page-top">
-        <span class="d-block d-lg-none">Haris Ahmad</span>
+        <span class="d-block d-lg-none navbar-name">Haris Ahmad</span>
         <span class="d-none d-lg-block">
           <img src="images/0.png" alt="profilepic" class="img-fluid img-profile rounded-circle mx-auto mb-2">
         </span>
@@ -34,13 +35,13 @@
             <a class="nav-link" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="#education">Education</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#skills">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#awards">Awards</a>
           </li>
         </ul>
       </div>
@@ -100,33 +101,114 @@
     <section class="content-area p-3 p-lg-3 d-flex flex-column" id="projects">
       <div class="my-auto">
         <!-- Title -->
-        <h1 class="mb-5">Projects</h1>
-        <!-- Project # Description -->
+        <h1 class="mb-5 section-title">Projects</h1>
+        <!-- Future Projects Go here -->
+
+
+        <!-- Future Projects Go here -->
         <div class="content-item d-flex flex-column mb-5">
-          <!-- Project title -->
-          <h3 class="mb-0">My Project1</h3>
-          <!-- Project type & Skills Used -->
-          <div class="subheading mb-3">
-            Python App
+          <h3 class="mb-0 proj-name">Personal Website</h3>   <!-- Project title -->
+          <div class="subheading mb-3">       <!-- Project description -->
+            Website
             <br>
-            Skills Used:Python, Docker, Azure
+            <span class="skills">Skills Used:</span> HTML, CSS, JS, SCSS, Bootsrap5
           </div>
           
+          <!-- SOCIALS -->
+          <ul class="list-inline list-social-icons mb-5">
+            <!-- GITHUB -->
+            <li class="list-inline-item">
+              <a href="https://harisahmadg.github.io/Website/" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa-brands fa-github-square fa-3x"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+
+          <!-- Project comments -->
+          <ul class="proj-description">
+            <li>Developed a personal portfolio website to display my resume
+              in depth </li>
+            <li> The website is completely responsive for any device size. made
+              possible by BOOTSTRAP5 and CSS. 
+            </li>
+          </ul>
         </div>
-        <h3>Computer Science Student</h3>
-        <p class="mb-5 intro-text">
-          I'm a passionate undergraduate student studying 
-          computer science at York University. Actively evolving 
-          and adapting especially given the rate that this field is 
-          accelerating. I look forward to utilize well-honed skills and
-          knowledge in planning, coding and testing to develop impacful
-          software solutions.
-        </p>
+        
+        <!-- Project 1 Description -->
+        <div class="content-item d-flex flex-column mb-5">
+          <h3 class="mb-0 proj-name">Apex Tracker</h3>   <!-- Project title -->
+          <div class="subheading mb-3">       <!-- Project description -->
+            Discord bot
+            <br>
+            <span class="skills">Skills Used:</span> Python, WSL, Discord, API, Hikari, Lightbulb, VENV, sqlite3, 
+            SQL, REDIS Server, APScheduler
+          </div>
+          
+          <!-- SOCIALS -->
+          <ul class="list-inline list-social-icons mb-5">
+            <!-- GITHUB -->
+            <li class="list-inline-item">
+              <a href="https://github.com/harisahmadg/ApexTracker" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa-brands fa-github-square fa-3x"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+
+          <!-- Project comments -->
+          <ul class="proj-description">
+            <li>Developed a fully functional discord bot that is used in several
+              servers. The bot is made by utilizing hikari and lightbulb which are
+              powerful, static-typed Python API for writing Discord bots </li>
+            <li>Using slash commands, a user is able to request the bot to do 
+              a certain action. This partifular bot makes API calls to the database
+              from Apex Legends (video game). It fetches and displays the data to the
+              user that requested the action
+            </li>
+            <li>Currently it supports many commands with more planned in
+              the near future </li>
+            <li>Next goals are to containerize the project and host it on
+              cloud server to have it constantly running.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Experience -->
+    <section class="content-area p-3 p-lg-3 d-flex flex-column" id="experience">
+      <div class="my-auto">
+        <!-- Title -->
+        <h1 class="mb-5 section-title">Experience</h1>
 
       </div>
     </section>
-  </div>
+    
 
+    <!-- Education -->
+    <section class="content-area p-3 p-lg-3 d-flex flex-column" id="education">
+      <div class="my-auto">
+        <!-- Title -->
+        <h1 class="mb-5 section-title">Education</h1>
+
+      </div>
+    </section>
+
+
+    <!-- Skills -->
+    <section class="content-area p-3 p-lg-3 d-flex flex-column" id="skills">
+      <div class="my-auto">
+        <!-- Title -->
+        <h1 class="mb-5 section-title">Skills</h1>
+
+      </div>
+    </section>
+    
+  </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
