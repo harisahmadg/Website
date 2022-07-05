@@ -15,6 +15,7 @@ body {
   text-align: center;
   font-size: 20px;
   color: antiquewhite;
+  text-transform: uppercase;
 }
 
 /****** CONTENT AREA *********/
@@ -41,6 +42,11 @@ h4, h5, h6 {
   color: #bb5070;
 }
 
+@media (min-width: 768px) {
+  .content-area {
+    min-height: 100vh;
+  }
+}
 @media (min-width: 992px) {
   body {
     padding-top: 0;
@@ -97,9 +103,7 @@ h4, h5, h6 {
   .content-area {
     padding: 3rem !important;
   }
-}
-@media (min-width: 992px) and (min-width: 768px) {
-  .content-area {
-    min-height: 100vh;
+  .content-area .intro-text {
+    max-width: 768px;
   }
 }/*# sourceMappingURL=main.css.map */
