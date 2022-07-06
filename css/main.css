@@ -79,24 +79,30 @@ body {
   font-size: inherit;
 }
 
-.content-area#projects {
-  max-width: 90%;
+.content-area#projects .content-item {
+  max-width: 1250px;
 }
-.content-area#projects .proj-name {
+.content-area#projects .content-item .proj-name {
   color: #bb5070;
 }
-.content-area#projects .subheading {
+.content-area#projects .content-item .subheading {
   font-size: inherit;
   font-weight: 600;
   text-transform: uppercase;
   color: #2b0e2c;
 }
-.content-area#projects .subheading .skills {
+.content-area#projects .content-item .subheading .skills {
   font-weight: bold;
   color: #bb5070;
 }
-.content-area#projects .proj-description {
+.content-area#projects .content-item .proj-description {
   padding-bottom: 20px;
+}
+
+.content-area#skills .content-item .skill-category {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #bb5070;
 }
 
 h1, h2, h3,

@@ -91,24 +91,42 @@ body {
 }
 
 .content-area#projects {
-    max-width: 90%;
-    .proj-name {
-        color: #bb5070;
-    }
-    .subheading {
-        font-size: inherit;
-        font-weight: 600;
-        text-transform: uppercase;
-        color: #2b0e2c;
+    
+    .content-item {
+        max-width: 1250px;
 
-        .skills {
+        .proj-name {
+            color: #bb5070;
+        }
+        .subheading {
+            font-size: inherit;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: #2b0e2c;
+    
+            .skills {
+                font-weight: bold;
+                color: #bb5070;
+            }
+        }
+        .proj-description {
+            padding-bottom: 20px;
+        }
+    }
+}
+
+.content-area#skills {
+
+    .content-item {
+
+        .skill-category {
+            text-transform: uppercase;
+
             font-weight: bold;
             color: #bb5070;
         }
     }
-    .proj-description {
-        padding-bottom: 20px;
-    }
+
 }
 
 h1, h2, h3,
