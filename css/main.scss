@@ -128,18 +128,42 @@ body {
     }
 }
 
+.content-area#experience {
+    
+    .content-item {
+
+        .left-side {
+
+            h4 {
+                color:#bb5070;
+            }
+        }
+    }
+}
+
+.content-area#education {
+    
+    .content-item {
+
+        .left-side {
+
+            h4 {
+                color:#bb5070;
+            }
+        }
+    }
+}
+
 .content-area#skills {
 
     .content-item {
-
+        font-weight: 600;
         .skill-category {
             text-transform: uppercase;
-
             font-weight: bold;
             color: #bb5070;
         }
     }
-
 }
 
 h1, h2, h3,
