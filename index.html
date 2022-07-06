@@ -23,25 +23,45 @@
           <img src="images/0.png" alt="profilepic" class="img-fluid img-profile rounded-circle mx-auto mb-2">
         </span>
       </a>
-      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse pages-wrapper" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
+          <li class="nav-item active">
+            <a class="nav-link" href="#about">
+              <span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">  <!-- have to add span cuz links break otherwise -->
+                About
+              </span>
+            </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#projects">Projects</a>
+            <a class="nav-link" href="#projects">
+              <span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">  <!-- have to add span cuz links break otherwise -->
+                Projects
+              </span></a>
+            </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#experience">Experience</a>
+            <a class="nav-link" href="#experience">
+              <span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">  <!-- have to add span cuz links break otherwise -->
+                Experience
+              </span>
+            </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#education">Education</a>
+            <a class="nav-link" href="#education">
+              <span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">  <!-- have to add span cuz links break otherwise -->
+                Education
+              </span>
+            </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#skills">Skills</a>
+            <a class="nav-link" href="#skills">
+              <span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">  <!-- have to add span cuz links break otherwise -->
+                Skills
+              </span>
+            </a>
           </li>
         </ul>
       </div>
@@ -98,7 +118,7 @@
     </section>
 
     <!-- Projects -->
-    <section class="content-area p-3 p-lg-3 d-flex flex-column" id="projects">
+    <section class="content-area info p-3 p-lg-3 d-flex flex-column" id="projects">
       <div class="my-auto">
         <!-- Title -->
         <h1 class="mb-5 section-title">Projects</h1>
@@ -211,7 +231,7 @@
 
 
     <!-- Experience -->
-    <section class="content-area p-3 p-lg-3 d-flex flex-column" id="experience">
+    <section class="content-area info p-3 p-lg-3 d-flex flex-column" id="experience">
       <div class="my-auto">
         <!-- Title -->
         <h1 class="mb-5 section-title">Experience</h1>
@@ -221,7 +241,7 @@
     
 
     <!-- Education -->
-    <section class="content-area p-3 p-lg-3 d-flex flex-column" id="education">
+    <section class="content-area info p-3 p-lg-3 d-flex flex-column" id="education">
       <div class="my-auto">
         <!-- Title -->
         <h1 class="mb-5 section-title">Education</h1>
@@ -231,7 +251,7 @@
 
 
     <!-- Skills -->
-    <section class="content-area p-3 p-lg-3 d-flex flex-column" id="skills">
+    <section class="content-area info p-3 p-lg-3 d-flex flex-column" id="skills">
       <div class="my-auto">
         <!-- Title -->
         <h1 class="mb-5 section-title">Skills</h1>

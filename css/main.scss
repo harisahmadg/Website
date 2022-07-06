@@ -32,6 +32,13 @@ body {
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
+    display: flex;
+    
+    span {                  // needed for closing of navbar on click
+        height: 100%;
+        width: 100%;
+        align-self: stretch;
+    }
 }
 
 .nav-link:hover {
@@ -230,5 +237,14 @@ h4, h5, h6 {
     }
     .content-area {
         min-height: 100vh;
+    }
+}
+
+// Phones
+
+@media (max-width: 400px) {
+
+    .content-area.info h1 {
+        font-size: 36px;
     }
 }

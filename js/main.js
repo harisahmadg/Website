@@ -1,13 +1,6 @@
-// window.addEventListener("resize", ResizeWindow);
-
-// function ResizeWindow() {
-//   var dataSpyList = [].slice.call(
-//     document.querySelectorAll('[data-bs-spy="scroll"]')
-//   );
-//   dataSpyList.forEach(function (dataSpyElement) {
-//     bootstrap.ScrollSpy.getInstance(dataSpyElement).refresh;
-//   });
-// }
+// found this code to fix the scrolling issue from this link
+// https://github.com/twbs/bootstrap/issues/32496
+// scrollspy with bootstrap5 has bugs which havent been fixed
 
 function hotfixScrollSpy() {
     var dataSpyList = [].slice.call(document.querySelectorAll('[data-bs-spy="scroll"]'))
@@ -29,6 +22,13 @@ window.onload = function () {
     window.scrollBy(0,1);
 }
 
-// found this code to fix the scrolling issue from this link
-// https://github.com/twbs/bootstrap/issues/32496
-// scrollspy with bootstrap5 has bugs which havent been fixed
+// ----------------------
+// Collapsing the navbar on link click
+// https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-navbar-on-click 
+// const navLinks = document.querySelectorAll('.nav-item')
+// const menuToggle = document.getElementById('navbarSupportedContent')
+// const bsCollapse = new bootstrap.Collapse(menuToggle, {toggle:false})
+// navLinks.forEach((l) => {
+//     l.addEventListener('click', () => { bsCollapse.toggle() })
+// })
+
